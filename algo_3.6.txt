@@ -1,0 +1,24 @@
+ALGORITHME ex-3.6
+
+VARIABLES
+childAge: numérique
+
+DEBUT
+    Ecrire "Donnez moi l'âge d'un enfant : "
+    Lire childAge
+
+    SI childAge est égale à 6 ou  childAge est égale à 7
+        Ecrire "L'enfant est un Poussin"
+    SINONSI childAge est égale à 8 ou childAge est égale à 9
+        Ecrire "L'enfant est une Pupille"
+    SINONSI childAge est égale à 10 ou childAge est égale à 11
+        Ecrire "L'enfnat est Minime"
+    SINONSI childAge est supérieur ou égale à 12
+        Ecrire "L'enfant est un Cadet"
+    SINON
+        Ecrire "L'âge est invalide pour ce travail"
+    FIN SI
+
+FIN
+
+FIN ALGORITHME
