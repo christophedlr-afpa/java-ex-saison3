@@ -1,0 +1,19 @@
+ALGORITHME ex-3.5
+
+VARIABLES
+    num: numérique
+
+DEBUT
+    Ecrire "Donnez un nombre : "
+    Lire num
+
+    SI num est égale à 0
+        Ecrire "Votre nombre est nul (0)"
+    SINONSI num est inférieur à 0
+        Ecrire "Votre nombre "&num&" est négatif"
+    SINON
+        Ecrire "Votre nombre est positif"
+    FIN SI
+FIN
+
+FIN ALGORITHME
